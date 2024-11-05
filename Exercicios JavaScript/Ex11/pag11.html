@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composição de Metal e Ametal</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style11.css">
+    <script src="script11.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="text-center mb-4">Composição de Metal e Ametal</h2>
+                <div class="form-group">
+                    <input type="number" id="percentualMetal" class="form-control" placeholder="Porcentagem de metal (%)" required>
+                    <input type="number" id="percentualAmetal" class="form-control mt-2" placeholder="Porcentagem de ametal (%)" required>
+                    <button onclick="calcularPredominancia()" class="btn btn-primary mt-2">Calcular Predominância</button>
+                </div>
+
+                <h4 class="mt-4">Resultado:</h4>
+                <p id="resultado" class="alert alert-info" style="display: none;"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

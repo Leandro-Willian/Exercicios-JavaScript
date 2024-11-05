@@ -1,0 +1,6 @@
+.card {
+    max-width: 600px;
+    margin: auto;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

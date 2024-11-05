@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Determinação da Liga</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style07.css">
+    <script src="script07.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="text-center mb-4">Determinação da Predominância da Liga</h2>
+                <div class="form-group">
+                    <input type="number" id="percentualMetal" class="form-control" placeholder="Percentual de metal (%)" step="0.01" required>
+                    <input type="number" id="percentualAmetal" class="form-control mt-2" placeholder="Percentual de ametal (%)" step="0.01" required>
+                </div>
+                <button onclick="determinarPredominancia()" class="btn btn-primary btn-block">Determinar Predominância</button>
+                <p id="resultado" class="text-center mt-3"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
