@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Números</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style03.css">
+    <script src="script03.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="text-center mb-4">Análise de Números</h2>
+                <p>Informe 10 números inteiros separados por vírgula:</p>
+                <div class="form-group">
+                    <input type="text" id="numeros" class="form-control" placeholder="Ex: 1, -2, 3, 4, 5, 6, 7, 8, 9, 10">
+                </div>
+                <button onclick="analisar()" class="btn btn-primary btn-block">Analisar</button>
+
+                <h3 class="text-center mt-4">Resultados:</h3>
+                <div class="grid-container">
+                    <p id="maiores" class="grid-item"></p>
+                    <p id="menores" class="grid-item"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

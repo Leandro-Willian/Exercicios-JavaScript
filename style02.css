@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 20px; 
+}
